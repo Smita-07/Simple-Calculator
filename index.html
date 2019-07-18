@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <script src="Calculate.js"></script>
+
+    <style>
+        #input1,
+        #input2 {
+
+            background-color: aqua;
+            block-size: 30px;
+            text-align: center;
+            margin-left: 175px;
+            margin-top: 50px;
+        }
+
+        #block{
+            background-color: blueviolet;
+            block-size: 50px,50px;
+            border-block-color: inherit;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id = "block">
+        <input type="number" placeholder="Enter First Number" id="input1"><br />
+        <input type="number" placeholder="Enter Second Number" id="input2"><br />
+    </div>
+    <div>
+        <button onclick="additionBy()" value="Add">ENTER NO.TO ADD</button>
+        <button onclick="subtractionBy()" value="Sub">ENTER NO.TO SUBTRACT</button>
+        <button onclick="multiplyBy()" value="Multiply">ENTER NO.TO MULTIPLY</button>
+        <button onclick="divisionBy()" value="Divide">ENTER NO.TO DIVIDE</button>
+    </div>
+    <div id="s1"></div>
+</body>
+
+</html>
